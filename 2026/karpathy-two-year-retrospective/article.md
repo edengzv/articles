@@ -1,8 +1,8 @@
 # Karpathy 两年全记录：从 llm.c 到 autoresearch，一个天才程序员的 AI 进化论
 
-> 如果你只关注一个 AI 人物的 GitHub，那应该是 @karpathy。
+> 如果你只关注一个 AI 人物的 GitHub，那应该是 [@karpathy](https://github.com/karpathy)。
 
-2024 年初，Andrej Karpathy 离开了 Tesla。在此之前，他是 Tesla 的 AI 总监，斯坦福博士，深度学习领域的标志性人物——他的 Neural Networks Zero to Hero 系列课程影响了数以十万计的 AI 学习者。
+2024 年初，Andrej Karpathy 离开了 Tesla。在此之前，他是 Tesla 的 AI 总监，斯坦福博士，深度学习领域的标志性人物——他的 [Neural Networks Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) 系列课程影响了数以十万计的 AI 学习者。
 
 离开 Tesla 后的 600 多天里，Karpathy 没有闲着。他发布了 **12 个开源项目**（累计超过 25 万星），发表了 **7 场重要演讲和访谈**，写下了多篇深度博客。他的每一个项目都在做同一件事：**把复杂的东西变简单，让每个人都能理解 AI 的本质。**
 
@@ -14,7 +14,7 @@
 
 ### 2024 年：简化一切
 
-#### 2 月 · minbpe —— 200 行代码讲透 BPE 算法
+#### 2 月 · [minbpe](https://github.com/karpathy/minbpe) —— 200 行代码讲透 BPE 算法
 
 GitHub 星标：10,465
 
@@ -24,7 +24,7 @@ Karpathy 发布了 minbpe——一个极简的 Byte Pair Encoding（BPE）算法
 
 这个项目延续了 Karpathy 的一贯风格：**不是造轮子，而是拆轮子给你看。**
 
-#### 4 月 · llm.c —— 用纯 C 训练 GPT
+#### 4 月 · [llm.c](https://github.com/karpathy/llm.c) —— 用纯 C 训练 GPT
 
 GitHub 星标：29,804
 
@@ -34,7 +34,7 @@ GitHub 星标：29,804
 
 llm.c 的意义不在于性能（它比 PyTorch Nightly 还快约 7%），而在于它**打破了"训练 LLM 必须依赖庞大框架"的迷思**。一个本科生读完 llm.c 的代码，就能理解 GPT 训练的全部细节。
 
-#### 5 月 · LLM101n —— Let's Build a Storyteller
+#### 5 月 · [LLM101n](https://github.com/karpathy/LLM101n) —— Let's Build a Storyteller
 
 GitHub 星标：36,884
 
@@ -42,7 +42,7 @@ GitHub 星标：36,884
 
 这个项目延续了他在 YouTube 上 Zero to Hero 系列的教学理念：**从标量开始，一步步构建完整的神经网络。**
 
-#### 6 月 · build-nanogpt —— 视频 + 代码的 nanoGPT 教程
+#### 6 月 · [build-nanogpt](https://github.com/karpathy/build-nanogpt) —— 视频 + 代码的 nanoGPT 教程
 
 GitHub 星标：4,966
 
@@ -50,15 +50,15 @@ GitHub 星标：4,966
 
 #### 🎤 演讲：「Software Is Changing (Again)」
 
-在 Tech Talks Weekly #65 中，Karpathy 提出了一个核心观点：**软件正在再次发生变化。**
+在 [Tech Talks Weekly #65](https://www.youtube.com/watch?v=EWvNQjAaOHw) 中，Karpathy 提出了一个核心观点：**软件正在再次发生变化。**
 
-2015 年他写过一篇著名的文章「Software 2.0」，认为神经网络将取代传统软件。2024 年，他再次强调：**LLM 正在让编程变成"说话"**。这不是编程的终结，而是编程范式的又一次迁移。
+2015 年他写过一篇著名的文章「[Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)」，认为神经网络将取代传统软件。2024 年，他再次强调：**LLM 正在让编程变成"说话"**。这不是编程的终结，而是编程范式的又一次迁移。
 
 ---
 
 ### 2025 年：从工具到生态
 
-#### 10 月 · nanochat —— 100 美元训练一个 GPT-2
+#### 10 月 · [nanochat](https://github.com/karpathy/nanochat) —— 100 美元训练一个 GPT-2
 
 GitHub 星标：52,910
 
@@ -70,13 +70,13 @@ nanochat 是 Karpathy 迄今为止最实用的项目。它提供了一个完整�
 
 nanochat 还维护了一个 "Time-to-GPT-2 Leaderboard"，激励社区竞争最短训练时间。截至 2026 年 3 月，最快纪录已经压缩到 **1.65 小时**。
 
-#### 11 月 · reader3 —— 和 LLM 一起读书
+#### 11 月 · [reader3](https://github.com/karpathy/reader3) —— 和 LLM 一起读书
 
 GitHub 星标：3,586
 
 reader3 演示了如何轻松地与 LLM 一起阅读书籍。Karpathy 在这个项目中探索了一个新的交互范式：**不是让 LLM 总结书，而是让 LLM 和你一起"读"书。**
 
-#### 11 月 · llm-council —— LLM 议会
+#### 11 月 · [llm-council](https://github.com/karpathy/llm-council) —— LLM 议会
 
 GitHub 星标：18,237
 
@@ -94,7 +94,7 @@ Karpathy 用 "vibe coded" 来形容这个项目——**代码不再是精心设�
 
 **代码是短暂的，库已经过时了。让你的 LLM 随便改。**
 
-#### 12 月 · hn-time-capsule —— 十年后的 Hacker News 时光机
+#### 12 月 · [hn-time-capsule](https://github.com/karpathy/hn-time-capsule) —— 十年后的 Hacker News 时光机
 
 GitHub 星标：616
 
@@ -102,7 +102,7 @@ GitHub 星标：616
 
 #### 🎤 演讲与访谈密集期
 
-**Dwarkesh Podcast：「AGI is still a decade away」**
+**[Dwarkesh Podcast：「AGI is still a decade away」](https://www.dwarkesh.com/p/andrej-karpathy)**
 
 Karpathy 在这期播客中表达了他对 AGI 时间线的核心判断：**AGI 仍然需要十年。** 不是明年，不是五年，而是十年。
 
@@ -116,7 +116,7 @@ Karpathy 在这期播客中表达了他对 AGI 时间线的核心判断：**AGI 
 
 > 这个比喻暗示：我们当前的方法虽然有效，但可能不是通向真正智能的正确路径。
 
-**KDnuggets：「Unlock the Secrets of LLMs in 60 Minutes」**
+**[KDnuggets：「Unlock the Secrets of LLMs in 60 Minutes」](https://www.kdnuggets.com/unlock-the-secrets-of-llms-in-a-60-minute-with-andrej-karpathy)**
 
 60 分钟的 LLM 深度入门，Karpathy 用他标志性的教学方式，解释了 LLM 的能力、未来潜力和安全风险。
 
@@ -124,7 +124,7 @@ Karpathy 在这期播客中表达了他对 AGI 时间线的核心判断：**AGI 
 
 ### 2026 年：自主研究时代
 
-#### 1 月 · rustbpe —— 缺失的 tiktoken 训练代码
+#### 1 月 · [rustbpe](https://github.com/karpathy/rustbpe) —— 缺失的 tiktoken 训练代码
 
 GitHub 星标：446
 
@@ -132,7 +132,7 @@ GitHub 星标：446
 
 #### 2 月 · microgpt —— 200 行 Python 训练 GPT
 
-这是 Karpathy 的"艺术品"。他在博客中写道：
+这是 Karpathy 的"艺术品"。他在博客 [karpathy.github.io](https://karpathy.github.io/2026/02/12/microgpt/) 中写道：
 
 > "This is a brief guide to my new art project microgpt, a single file of 200 lines of pure Python with no dependencies that trains and inferences a GPT. This file contains the full algorithmic content of what is needed: dataset of documents, tokenizer, autograd engine, a GPT-2-like neural network architecture, the Adam optimizer, training loop, and inference loop. Everything else is just efficiency."
 
@@ -142,7 +142,7 @@ GitHub 星标：446
 
 Karpathy 说他已经无法再简化了。这是他对 LLM 本质理解的终极表达——**剥离所有效率优化后，LLM 的核心算法只需要 200 行代码。**
 
-#### 3 月 · autoresearch —— AI 研究 AI
+#### 3 月 · [autoresearch](https://github.com/karpathy/autoresearch) —— AI 研究 AI
 
 GitHub 星标：78,896（目前 Karpathy 星标最高的项目）
 
@@ -162,7 +162,7 @@ Karpathy 用幽默的笔调描述了 AI 自主研究的未来：
 
 #### 🎤 演讲：Sequoia Ascent 2026
 
-在 Sequoia Ascent 2026 上，Karpathy 发表了关于 Agentic Engineering 的演讲，提出了 **5 个预测**：
+在 [Sequoia Ascent 2026](https://karpathy.ai/) 上，Karpathy 发表了关于 Agentic Engineering 的演讲，提出了 **5 个预测**：
 
 1. **Agentic AI 需要多年才能真正实用**——不是工具升级，而是范式转变
 2. **LLM 的训练成本将继续指数级下降**——nanochat 的 15 美元只是开始
@@ -178,7 +178,7 @@ Karpathy 用幽默的笔调描述了 AI 自主研究的未来：
 
 ### 判断一：AGI 仍然遥远，至少十年
 
-Karpathy 在 Dwarkesh Podcast 中明确表示：**AGI 仍然需要十年**。他反对"明年就有 AGI"的炒作，认为当前的 LLM 虽然在某些任务上表现出色，但距离真正的通用智能还有本质差距。
+Karpathy 在 [Dwarkesh Podcast](https://www.dwarkesh.com/p/andrej-karpathy) 中明确表示：**AGI 仍然需要十年**。他反对"明年就有 AGI"的炒作，认为当前的 LLM 虽然在某些任务上表现出色，但距离真正的通用智能还有本质差距。
 
 > 他的理由：当前的 LLM 是"召唤幽灵"而非"建造动物"——我们通过缩放和训练让能力"涌现"，但这不等于构建了真正的理解力。
 
@@ -188,21 +188,21 @@ Karpathy 认为，虽然 agentic AI 是方向，但**离真正的实用还有数
 
 ### 判断三：LLM 的本质可以极度简化
 
-从 minbpe（200 行 BPE）到 llm.c（纯 C 训练）到 microgpt（200 行 Python 训练 GPT），Karpathy 反复证明了一个观点：**LLM 的核心算法并不复杂，复杂的是工程优化。**
+从 [minbpe](https://github.com/karpathy/minbpe)（200 行 BPE）到 [llm.c](https://github.com/karpathy/llm.c)（纯 C 训练）到 [microgpt](https://karpathy.github.io/2026/02/12/microgpt/)（200 行 Python 训练 GPT），Karpathy 反复证明了一个观点：**LLM 的核心算法并不复杂，复杂的是工程优化。**
 
 > "Everything else is just efficiency."——剥离效率优化后，LLM 的本质只需要 200 行代码。
 
 ### 判断四：训练成本将呈指数级下降
 
-nanochat 的 15 美元训练 GPT-2 级别模型，autoresearch 的 5 分钟实验周期——Karpathy 用实际行动证明：**LLM 的训练成本正在以远超摩尔定律的速度下降。**
+[nanochat](https://github.com/karpathy/nanochat) 的 15 美元训练 GPT-2 级别模型，[autoresearch](https://github.com/karpathy/autoresearch) 的 5 分钟实验周期——Karpathy 用实际行动证明：**LLM 的训练成本正在以远超摩尔定律的速度下降。**
 
 ### 判断五：自主 AI 研究是必然趋势
 
-autoresearch 是 Karpathy 对 AI 研究未来的具象化表达。他认为，**AI 研究将越来越多地由 AI 自己完成**——人类设定方向，AI 执行实验、分析结果、迭代改进。
+[autoresearch](https://github.com/karpathy/autoresearch) 是 Karpathy 对 AI 研究未来的具象化表达。他认为，**AI 研究将越来越多地由 AI 自己完成**——人类设定方向，AI 执行实验、分析结果、迭代改进。
 
 ### 判断六：代码是短暂的，库已经过时
 
-在 llm-council 的 README 中，Karpathy 写下了一句震动开发者圈子的话：
+在 [llm-council](https://github.com/karpathy/llm-council) 的 README 中，Karpathy 写下了一句震动开发者圈子的话：
 
 > "Code is ephemeral now and libraries are over, ask your LLM to change it in whatever way you like."
 
@@ -210,7 +210,7 @@ autoresearch 是 Karpathy 对 AI 研究未来的具象化表达。他认为，**
 
 ### 判断七：多模型协作优于单一模型
 
-llm-council 的设计哲学是：**没有哪个 LLM 能永远是最好的。** 通过让多个 LLM 协作、互相评审，可以得到比单一模型更好的答案。这暗示了未来 AI 应用的架构方向——不是选一个最好的模型，而是让多个模型协作。
+[llm-council](https://github.com/karpathy/llm-council) 的设计哲学是：**没有哪个 LLM 能永远是最好的。** 通过让多个 LLM 协作、互相评审，可以得到比单一模型更好的答案。这暗示了未来 AI 应用的架构方向——不是选一个最好的模型，而是让多个模型协作。
 
 ---
 
@@ -222,9 +222,9 @@ Karpathy 的每一个项目、每一场演讲，都在向程序员群体传递�
 
 Karpathy 的所有项目都在做同一件事：**剥离框架，展示本质。**
 
-- llm.c 告诉你：没有 PyTorch，你也能训练 GPT
-- minbpe 告诉你：没有 tiktoken，你也能实现 BPE
-- microgpt 告诉你：没有任何依赖，200 行 Python 就能训练 GPT
+- [llm.c](https://github.com/karpathy/llm.c) 告诉你：没有 PyTorch，你也能训练 GPT
+- [minbpe](https://github.com/karpathy/minbpe) 告诉你：没有 tiktoken，你也能实现 BPE
+- [microgpt](https://karpathy.github.io/2026/02/12/microgpt/) 告诉你：没有任何依赖，200 行 Python 就能训练 GPT
 
 **启示：不要把你的技能绑定在某个框架上。** 框架会过时，API 会改变，但对算法本质的理解永远不会过时。Karpathy 在 2015 年做的 RNN 教程，到今天仍然有价值——因为 Transformer 的本质和 RNN 是相通的。
 
@@ -232,15 +232,15 @@ Karpathy 的所有项目都在做同一件事：**剥离框架，展示本质。
 
 Karpathy 的项目有一个共同特点：**极度简化。** 他不是在做"更完整"的工具，而是在做"更简单"的解释。
 
-- llm.c 比 PyTorch 简单 100 倍
-- microgpt 比 nanoGPT 简单 100 倍
-- nanochat 的 `--depth` 参数把复杂的超参数调优简化为一个数字
+- [llm.c](https://github.com/karpathy/llm.c) 比 PyTorch 简单 100 倍
+- [microgpt](https://karpathy.github.io/2026/02/12/microgpt/) 比 nanoGPT 简单 100 倍
+- [nanochat](https://github.com/karpathy/nanochat) 的 `--depth` 参数把复杂的超参数调优简化为一个数字
 
 **启示：在你的领域里，你能不能做出"micro"版本？** 不是更强大的工具，而是更简单的解释。这种能力在 AI 时代越来越稀缺，也越来越有价值。
 
 ### 启示三：拥抱"vibe coding"，但不要放弃理解
 
-Karpathy 是第一个公开说"代码是短暂的"的一线 AI 研究者。他用 llm-council 演示了"vibe coding"——一个周六下午，让 LLM 帮你写一个完整的应用。
+Karpathy 是第一个公开说"代码是短暂的"的一线 AI 研究者。他用 [llm-council](https://github.com/karpathy/llm-council) 演示了"vibe coding"——一个周六下午，让 LLM 帮你写一个完整的应用。
 
 但请注意：**Karpathy 的 vibe coding 建立在他对 AI 的深刻理解之上。** 他知道 LLM 在做什么、能做什么、不能做什么。他不是在盲目信任 LLM，而是在有意识地利用 LLM。
 
@@ -250,9 +250,9 @@ Karpathy 是第一个公开说"代码是短暂的"的一线 AI 研究者。他�
 
 Karpathy 离开 Tesla 后，没有去创业，没有去 VC，而是继续做他一直在做的事：**教育。**
 
-- llm.c、minbpe、microgpt 都是教育项目
-- YouTube 的 Zero to Hero 系列持续更新
-- nanochat 的 README 本身就是一篇完整的 LLM 教程
+- [llm.c](https://github.com/karpathy/llm.c)、[minbpe](https://github.com/karpathy/minbpe)、[microgpt](https://karpathy.github.io/2026/02/12/microgpt/) 都是教育项目
+- YouTube 的 [Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) 系列持续更新
+- [nanochat](https://github.com/karpathy/nanochat) 的 README 本身就是一篇完整的 LLM 教程
 
 **启示：在 AI 时代，最好的学习方式不是上课，而是动手。** Karpathy 的教学理念始终如一：给你能跑的代码，让你看到效果，再解释原理。这种"从做中学"的方式，比任何理论课程都有效。
 
@@ -260,7 +260,7 @@ Karpathy 离开 Tesla 后，没有去创业，没有去 VC，而是继续做他�
 
 Karpathy 的简化之路不是一天走成的：
 
-- micrograd（2018）→ makemore（2020）→ nanoGPT（2022）→ llm.c（2024）→ microgpt（2026）
+- [micrograd](https://github.com/karpathy/micrograd)（2018）→ [makemore](https://github.com/karpathy/makemore)（2020）→ [nanoGPT](https://github.com/karpathy/nanoGPT)（2022）→ [llm.c](https://github.com/karpathy/llm.c)（2024）→ [microgpt](https://karpathy.github.io/2026/02/12/microgpt/)（2026）
 
 **八年的时间，他在做同一件事：把 LLM 变简单。** 从标量微分（micrograd）到 200 行 GPT（microgpt），每一步都在前一步的基础上构建。
 
@@ -276,7 +276,7 @@ Karpathy 的简化之路不是一天走成的：
 
 他没有被 AGI 炒作裹挟，也没有陷入 AI 悲观主义。他选择了一条最朴素的路：**写代码，做教育，把复杂的东西变简单。**
 
-在 autoresearch 的 README 开头，他写了一段看似幽默实则深刻的话：
+在 [autoresearch](https://github.com/karpathy/autoresearch) 的 README 开头，他写了一段看似幽默实则深刻的话：
 
 > "One day, frontier AI research used to be done by meat computers in between eating, sleeping, having other fun, and synchronizing once in a while using sound wave interconnect in the ritual of 'group meeting'. That era is long gone."
 
@@ -291,3 +291,50 @@ Karpathy 的"道"，就是在这两者之间找到平衡：**既不过度迷信 
 「注」本文所有 GitHub 星标数据截至 2026 年 5 月 5 日
 
 #Karpathy #LLM #开源 #AI观点 #程序员
+
+---
+
+## 附录：参考链接
+
+### 开源项目
+
+| 项目 | 链接 | 星标 | 简介 |
+|------|------|------|------|
+| minbpe | [github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) | ⭐10,465 | 极简 BPE 分词算法实现 |
+| llm.c | [github.com/karpathy/llm.c](https://github.com/karpathy/llm.c) | ⭐29,804 | 纯 C/CUDA 实现 LLM 训练 |
+| LLM101n | [github.com/karpathy/LLM101n](https://github.com/karpathy/LLM101n) | ⭐36,884 | 从零构建讲故事的人 |
+| build-nanogpt | [github.com/karpathy/build-nanogpt](https://github.com/karpathy/build-nanogpt) | ⭐4,966 | 视频+代码 nanoGPT 教程 |
+| nanochat | [github.com/karpathy/nanochat](https://github.com/karpathy/nanochat) | ⭐52,910 | 100 美元训练 GPT-2 |
+| reader3 | [github.com/karpathy/reader3](https://github.com/karpathy/reader3) | ⭐3,586 | 和 LLM 一起读书 |
+| llm-council | [github.com/karpathy/llm-council](https://github.com/karpathy/llm-council) | ⭐18,237 | LLM 议会：多模型协作 |
+| hn-time-capsule | [github.com/karpathy/hn-time-capsule](https://github.com/karpathy/hn-time-capsule) | ⭐616 | Hacker News 十年时光机 |
+| rustbpe | [github.com/karpathy/rustbpe](https://github.com/karpathy/rustbpe) | ⭐446 | Rust 实现的 BPE 训练代码 |
+| microgpt | [karpathy.github.io](https://karpathy.github.io/2026/02/12/microgpt/) | — | 200 行 Python 训练 GPT |
+| autoresearch | [github.com/karpathy/autoresearch](https://github.com/karpathy/autoresearch) | ⭐78,896 | AI 自主研究 LLM 训练 |
+
+### 演讲与访谈
+
+| 标题 | 链接 | 时间 | 平台 |
+|------|------|------|------|
+| Software Is Changing (Again) | [YouTube](https://www.youtube.com/watch?v=EWvNQjAaOHw) | 2024 | Tech Talks Weekly #65 |
+| AGI is still a decade away | [dwarkesh.com](https://www.dwarkesh.com/p/andrej-karpathy) | 2025 | Dwarkesh Podcast |
+| We're summoning ghosts, not building animals | [karpathy.ai](https://karpathy.ai/) | 2025 | 个人网站 |
+| Unlock the Secrets of LLMs in 60 Minutes | [KDnuggets](https://www.kdnuggets.com/unlock-the-secrets-of-llms-in-a-60-minute-with-andrej-karpathy) | 2025 | KDnuggets |
+| Sequoia Ascent 2026 — Agentic Engineering | [karpathy.ai](https://karpathy.ai/) | 2026 | Sequoia Capital |
+
+### 博客文章
+
+| 标题 | 链接 | 时间 |
+|------|------|------|
+| microgpt | [karpathy.github.io/2026/02/12/microgpt](https://karpathy.github.io/2026/02/12/microgpt/) | 2026-02 |
+| 2025 LLM Year in Review | [karpathy.bearblog.dev](https://karpathy.bearblog.dev/blog/) | 2025-12 |
+| Software 2.0 (经典回顾) | [medium.com/@karpathy](https://medium.com/@karpathy/software-2-0-a64152b37c35) | 2015 |
+
+### 教学视频
+
+| 标题 | 链接 |
+|------|------|
+| Neural Networks: Zero to Hero | [YouTube Playlist](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) |
+| Deep Dive into LLMs like ChatGPT | [YouTube](https://www.youtube.com/watch?v=7xTGNNLPyMI) |
+| How I use LLMs | [YouTube](https://www.youtube.com/watch?v=EWvNQjAaOHw) |
+| Intro to Large Language Models | [YouTube](https://www.youtube.com/watch?v=zjkBMFhNj_g) |
